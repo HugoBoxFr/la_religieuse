@@ -1,0 +1,246 @@
+h1, h2, article h3 {
+    font-family: 'Cinzel', serif;
+    font-weight:900;
+}
+
+h1 {
+    font-size:2.5em;
+    color: #90ee90;
+    text-shadow: #fc0 1px 0 10px; 
+    display:none;
+}
+
+h2 {
+    margin: 1em 0;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px black;
+    color: rgb(169, 255, 31);
+}
+
+h3 {
+    margin: 0.8em;
+    text-shadow: 1px 1px 2px black;
+    color: rgb(169, 255, 31);
+} 
+
+body, html {
+    height: 100%;
+    background-color: #302b27;
+    background-image: linear-gradient(200deg, rgba(213, 213, 213, 0.01) 0%, rgba(213, 213, 213, 0.01) 14.286%,rgba(140, 140, 140, 0.01) 14.286%, rgba(140, 140, 140, 0.01) 28.572%,rgba(52, 52, 52, 0.01) 28.572%, rgba(52, 52, 52, 0.01) 42.858%,rgba(38, 38, 38, 0.01) 42.858%, rgba(38, 38, 38, 0.01) 57.144%,rgba(159, 159, 159, 0.01) 57.144%, rgba(159, 159, 159, 0.01) 71.42999999999999%,rgba(71, 71, 71, 0.01) 71.43%, rgba(71, 71, 71, 0.01) 85.71600000000001%,rgba(88, 88, 88, 0.01) 85.716%, rgba(88, 88, 88, 0.01) 100.002%),linear-gradient(337deg, rgba(25, 25, 25, 0.01) 0%, rgba(25, 25, 25, 0.01) 12.5%,rgba(150, 150, 150, 0.01) 12.5%, rgba(150, 150, 150, 0.01) 25%,rgba(84, 84, 84, 0.01) 25%, rgba(84, 84, 84, 0.01) 37.5%,rgba(85, 85, 85, 0.01) 37.5%, rgba(85, 85, 85, 0.01) 50%,rgba(188, 188, 188, 0.01) 50%, rgba(188, 188, 188, 0.01) 62.5%,rgba(80, 80, 80, 0.01) 62.5%, rgba(80, 80, 80, 0.01) 75%,rgba(73, 73, 73, 0.01) 75%, rgba(73, 73, 73, 0.01) 87.5%,rgba(219, 219, 219, 0.01) 87.5%, rgba(219, 219, 219, 0.01) 100%),linear-gradient(203deg, rgba(233, 233, 233, 0.01) 0%, rgba(233, 233, 233, 0.01) 25%,rgba(114, 114, 114, 0.01) 25%, rgba(114, 114, 114, 0.01) 50%,rgba(164, 164, 164, 0.01) 50%, rgba(164, 164, 164, 0.01) 75%,rgba(228, 228, 228, 0.01) 75%, rgba(228, 228, 228, 0.01) 100%),linear-gradient(317deg, rgba(139, 139, 139, 0.02) 0%, rgba(139, 139, 139, 0.02) 16.667%,rgba(44, 44, 44, 0.02) 16.667%, rgba(44, 44, 44, 0.02) 33.334%,rgba(166, 166, 166, 0.02) 33.334%, rgba(166, 166, 166, 0.02) 50.001000000000005%,rgba(2, 2, 2, 0.02) 50.001%, rgba(2, 2, 2, 0.02) 66.668%,rgba(23, 23, 23, 0.02) 66.668%, rgba(23, 23, 23, 0.02) 83.33500000000001%,rgba(21, 21, 21, 0.02) 83.335%, rgba(21, 21, 21, 0.02) 100.002%),linear-gradient(328deg, rgba(3, 3, 3, 0.03) 0%, rgba(3, 3, 3, 0.03) 12.5%,rgba(116, 116, 116, 0.03) 12.5%, rgba(116, 116, 116, 0.03) 25%,rgba(214, 214, 214, 0.03) 25%, rgba(214, 214, 214, 0.03) 37.5%,rgba(217, 217, 217, 0.03) 37.5%, rgba(217, 217, 217, 0.03) 50%,rgba(68, 68, 68, 0.03) 50%, rgba(68, 68, 68, 0.03) 62.5%,rgba(118, 118, 118, 0.03) 62.5%, rgba(118, 118, 118, 0.03) 75%,rgba(200, 200, 200, 0.03) 75%, rgba(200, 200, 200, 0.03) 87.5%,rgba(198, 198, 198, 0.03) 87.5%, rgba(198, 198, 198, 0.03) 100%),linear-gradient(97deg, rgba(195, 195, 195, 0.03) 0%, rgba(195, 195, 195, 0.03) 16.667%,rgba(177, 177, 177, 0.03) 16.667%, rgba(177, 177, 177, 0.03) 33.334%,rgba(170, 170, 170, 0.03) 33.334%, rgba(170, 170, 170, 0.03) 50.001000000000005%,rgba(158, 158, 158, 0.03) 50.001%, rgba(158, 158, 158, 0.03) 66.668%,rgba(121, 121, 121, 0.03) 66.668%, rgba(121, 121, 121, 0.03) 83.33500000000001%,rgba(146, 146, 146, 0.03) 83.335%, rgba(146, 146, 146, 0.03) 100.002%),linear-gradient(268deg, rgba(103, 103, 103, 0.03) 0%, rgba(103, 103, 103, 0.03) 25%,rgba(112, 112, 112, 0.03) 25%, rgba(112, 112, 112, 0.03) 50%,rgba(4, 4, 4, 0.03) 50%, rgba(4, 4, 4, 0.03) 75%,rgba(227, 227, 227, 0.03) 75%, rgba(227, 227, 227, 0.03) 100%),linear-gradient(90deg, hsl(98,0%,0%),hsl(98,0%,0%));    
+}
+
+body {
+    perspective: none;
+}
+
+section{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cocktails-article h2, 
+.cocktails-article h3 {
+    padding: 10px;
+}
+
+.cocktails-head {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.pixabay.com/photo/2015/09/02/12/35/bar-918541_960_720.jpg");
+    height: 500px;
+    margin-top: 50px;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+    transform: translate(0, 0);
+}
+
+.cocktails-h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cocktails-great-cocktail p,
+.cocktails-all-cocktails p {
+    text-align: justify;
+}
+
+.cocktails-great-cocktail ul li,
+.cocktails-all-cocktails ul li {
+    text-align:left;
+    line-height: 1.2em;
+}
+
+.cocktails-h1, 
+.cocktails-great-cocktail article h2,
+.cocktails-all-cocktails article h2, 
+.cocktails-great-cocktail article h3,
+.cocktails-all-cocktails article h3,
+.cocktails-great-cocktail,
+.cocktails-all-cocktails {
+    text-align: center;
+}
+ 
+.cocktails-great-cocktail article,
+.cocktails-all-cocktails article {
+    padding: 0;
+    border-radius: 5px;
+    color: #999;
+    color: #157c43;
+}
+
+.cocktails-great-cocktail ul, 
+.cocktails-all-cocktails ul {
+    padding: 1em 0 0;
+}
+
+.cocktails-great-cocktail li, 
+.cocktails-all-cocktails li {
+    padding: 0 1em;
+}
+
+.cocktails-great-cocktail li:before, 
+.cocktails-all-cocktails li:before {
+    content: "\f00c"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left:0.2em;
+    width: 1.5em; 
+}
+
+.cocktails-great-cocktail, 
+.cocktails-all-cocktails {
+    display: flex;
+    margin: 0 auto;
+}
+
+.cocktails-great-cocktail article{
+    margin: 1em;
+    padding: 1em;
+    background-color: #221d1B;
+    background-attachment: fixed;
+    -webkit-box-shadow: 0px 0px 10px 3px #555;
+    box-shadow: 0 0 10px 3px #555;
+    background-image:linear-gradient(177deg, rgba(191, 191, 191, 0.03) 0%, rgba(191, 191, 191, 0.03) 12.5%,rgba(92, 92, 92, 0.03) 12.5%, rgba(92, 92, 92, 0.03) 25%,rgba(19, 19, 19, 0.03) 25%, rgba(19, 19, 19, 0.03) 37.5%,rgba(89, 89, 89, 0.03) 37.5%, rgba(89, 89, 89, 0.03) 50%,rgba(69, 69, 69, 0.03) 50%, rgba(69, 69, 69, 0.03) 62.5%,rgba(93, 93, 93, 0.03) 62.5%, rgba(93, 93, 93, 0.03) 75%,rgba(209, 209, 209, 0.03) 75%, rgba(209, 209, 209, 0.03) 87.5%,rgba(229, 229, 229, 0.03) 87.5%, rgba(229, 229, 229, 0.03) 100%),linear-gradient(151deg, rgba(121, 121, 121, 0.02) 0%, rgba(121, 121, 121, 0.02) 25%,rgba(230, 230, 230, 0.02) 25%, rgba(230, 230, 230, 0.02) 50%,rgba(31, 31, 31, 0.02) 50%, rgba(31, 31, 31, 0.02) 75%,rgba(166, 166, 166, 0.02) 75%, rgba(166, 166, 166, 0.02) 100%),linear-gradient(129deg, rgba(132, 132, 132, 0.01) 0%, rgba(132, 132, 132, 0.01) 25%,rgba(115, 115, 115, 0.01) 25%, rgba(115, 115, 115, 0.01) 50%,rgba(145, 145, 145, 0.01) 50%, rgba(145, 145, 145, 0.01) 75%,rgba(250, 250, 250, 0.01) 75%, rgba(250, 250, 250, 0.01) 100%),linear-gradient(112deg, rgba(121, 121, 121, 0.03) 0%, rgba(121, 121, 121, 0.03) 14.286%,rgba(124, 124, 124, 0.03) 14.286%, rgba(124, 124, 124, 0.03) 28.572%,rgba(188, 188, 188, 0.03) 28.572%, rgba(188, 188, 188, 0.03) 42.858%,rgba(23, 23, 23, 0.03) 42.858%, rgba(23, 23, 23, 0.03) 57.144%,rgba(56, 56, 56, 0.03) 57.144%, rgba(56, 56, 56, 0.03) 71.42999999999999%,rgba(141, 141, 141, 0.03) 71.43%, rgba(141, 141, 141, 0.03) 85.71600000000001%,rgba(170, 170, 170, 0.03) 85.716%, rgba(170, 170, 170, 0.03) 100.002%),linear-gradient(122deg, rgba(156, 156, 156, 0.02) 0%, rgba(156, 156, 156, 0.02) 25%,rgba(146, 146, 146, 0.02) 25%, rgba(146, 146, 146, 0.02) 50%,rgba(118, 118, 118, 0.02) 50%, rgba(118, 118, 118, 0.02) 75%,rgba(81, 81, 81, 0.02) 75%, rgba(81, 81, 81, 0.02) 100%),linear-gradient(221deg, rgba(223, 223, 223, 0.02) 0%, rgba(223, 223, 223, 0.02) 12.5%,rgba(163, 163, 163, 0.02) 12.5%, rgba(163, 163, 163, 0.02) 25%,rgba(250, 250, 250, 0.02) 25%, rgba(250, 250, 250, 0.02) 37.5%,rgba(32, 32, 32, 0.02) 37.5%, rgba(32, 32, 32, 0.02) 50%,rgba(78, 78, 78, 0.02) 50%, rgba(78, 78, 78, 0.02) 62.5%,rgba(8, 8, 8, 0.02) 62.5%, rgba(8, 8, 8, 0.02) 75%,rgba(235, 235, 235, 0.02) 75%, rgba(235, 235, 235, 0.02) 87.5%,rgba(100, 100, 100, 0.02) 87.5%, rgba(100, 100, 100, 0.02) 100%),linear-gradient(103deg, rgba(153, 153, 153, 0.03) 0%, rgba(153, 153, 153, 0.03) 12.5%,rgba(190, 190, 190, 0.03) 12.5%, rgba(190, 190, 190, 0.03) 25%,rgba(234, 234, 234, 0.03) 25%, rgba(234, 234, 234, 0.03) 37.5%,rgba(149, 149, 149, 0.03) 37.5%, rgba(149, 149, 149, 0.03) 50%,rgba(167, 167, 167, 0.03) 50%, rgba(167, 167, 167, 0.03) 62.5%,rgba(106, 106, 106, 0.03) 62.5%, rgba(106, 106, 106, 0.03) 75%,rgba(55, 55, 55, 0.03) 75%, rgba(55, 55, 55, 0.03) 87.5%,rgba(106, 106, 106, 0.03) 87.5%, rgba(106, 106, 106, 0.03) 100%),linear-gradient(272deg, rgba(211, 211, 211, 0.03) 0%, rgba(211, 211, 211, 0.03) 16.667%,rgba(14, 14, 14, 0.03) 16.667%, rgba(14, 14, 14, 0.03) 33.334%,rgba(132, 132, 132, 0.03) 33.334%, rgba(132, 132, 132, 0.03) 50.001000000000005%,rgba(60, 60, 60, 0.03) 50.001%, rgba(60, 60, 60, 0.03) 66.668%,rgba(22, 22, 22, 0.03) 66.668%, rgba(22, 22, 22, 0.03) 83.33500000000001%,rgba(230, 230, 230, 0.03) 83.335%, rgba(230, 230, 230, 0.03) 100.002%),linear-gradient(343deg, rgba(209, 209, 209, 0.03) 0%, rgba(209, 209, 209, 0.03) 12.5%,rgba(6, 6, 6, 0.03) 12.5%, rgba(6, 6, 6, 0.03) 25%,rgba(27, 27, 27, 0.03) 25%, rgba(27, 27, 27, 0.03) 37.5%,rgba(78, 78, 78, 0.03) 37.5%, rgba(78, 78, 78, 0.03) 50%,rgba(137, 137, 137, 0.03) 50%, rgba(137, 137, 137, 0.03) 62.5%,rgba(158, 158, 158, 0.03) 62.5%, rgba(158, 158, 158, 0.03) 75%,rgba(100, 100, 100, 0.03) 75%, rgba(100, 100, 100, 0.03) 87.5%,rgba(97, 97, 97, 0.03) 87.5%, rgba(97, 97, 97, 0.03) 100%),linear-gradient(90deg, hsl(151,0%,88%),hsl(151,0%,88%))
+}
+
+.cocktails-great-cocktail ul {
+    text-align: left;
+}
+
+.cocktails-great-cocktail ul li {
+    color: #157c43;
+    text-shadow: 1px 1px 2px grey;
+}
+
+.cocktails-all-cocktails ul li {
+    text-align:left;
+    line-height: 1.2em;
+}
+
+.cocktails-great-cocktail img, 
+.cocktails-all-cocktails img{
+    -webkit-box-shadow: 0px 0px 10px 3px #333;
+    box-shadow: 0 0 10px 3px #333;
+    max-width: 100%;
+    transition: transform .2s;
+}
+
+.cocktails-great-cocktail img {
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.cocktails-great-cocktail {
+    justify-content: center;
+}
+
+.cocktails-all-cocktails {
+    max-width: 992px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.cocktails-all-cocktails article{
+    max-width: 300px;
+    margin: 10px;
+}
+.cocktails-great-cocktail p, 
+.cocktails-all-cocktails p {
+    padding: 1em;;
+}
+
+ /* VERSION DESKTOP (hover sur les cocktails) */
+
+ @media screen and (max-width:992px) {
+
+    .cocktails-head {
+        height: 400px;
+    }
+}
+
+@media (min-width:768px) {
+
+    .cocktails-all-cocktails article {
+        position: relative;
+    }
+
+    .cocktails-all-cocktails .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        background-color: #eee;
+        z-index:-1;
+        transition-duration: 0.5s;
+    }
+    
+    .cocktails-all-cocktails article:hover .overlay {
+        opacity: 1;
+        z-index: 1000;
+        color: #157c43;
+    }
+    
+    article.cocktails-great-cocktail {
+        margin: 0 auto;
+    }
+
+    .cocktails-great-cocktail .left {
+        height: 100%;
+        margin-right: 2em;
+        float: left;
+        max-width: 300px;
+    }
+    
+    .cocktails-great-cocktail .right {
+        max-width: 992px;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+
+    .cocktails-head {
+        height: 200px;
+    }
+}
+
+
+
+/* corrections diverses */
+
+#menu{ position: fixed !important;}
+
+
